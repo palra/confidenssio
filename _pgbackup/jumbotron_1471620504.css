@@ -1,0 +1,48 @@
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand
+{
+    padding: 0px;
+}
+
+.navbar-brand>img
+{
+    height: 100%;
+    padding: 10px;
+    width: auto;
+}
+
+@media (max-width:479px)
+{
+    .jumbotron .btn-lg
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width:768px)
+{
+    .jumbotron
+    {
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+}
+
+@media (max-width:991px)
+{
+    .text-center-sm
+    {
+        text-align: center;
+    }
+}
+
