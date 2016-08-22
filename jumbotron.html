@@ -47,7 +47,7 @@
                     </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Connexion</b> <span class="caret"></span></a>
                             <ul id="login-dp" class="dropdown-menu">
                                 <li>
                                     <div class="row">
@@ -81,12 +81,14 @@
                                     </div>
                                 </li>                                 
                             </ul>
+                        </li>
+                    </ul>
                 </div>
                 <!--/.navbar-collapse -->
             </div>
         </nav>
-        <div class="jumbotron text-center">
-            <div class="container">
+        <div class="jumbotron text-center" id="jumbotron">
+            <div class="container" id="jumbotron-body">
                 <h1>Confidenssio</h1>
                 <h2 class="site-description">Votre carnet de vie, journal de bord, mémoire d'une vie accomplie</h2>
                 <button type="button" class="btn btn-primary btn-lg btn-block-xs">
@@ -96,6 +98,7 @@
                     <span class="glyphicon glyphicon-info-sign"></span> En savoir plus
                 </button>
             </div>
+            <video src="background.mp4" no-sound autoplay></video>
         </div>
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="container">
@@ -274,5 +277,3 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
-</html>
