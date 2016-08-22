@@ -46,3 +46,56 @@ body
     }
 }
 
+.zoom-item
+{
+    max-width: 64px;
+    max-height: 64px;
+}
+
+#login-dp
+{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+
+#login-dp .help-block
+{
+    font-size: 12px;
+}
+
+#login-dp .bottom
+{
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .form-group
+{
+    margin-bottom: 10px;
+}
+
+@media (max-width:768px)
+{
+    #login-dp
+    {
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom
+    {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+@media (max-width:767px)
+{
+    .btn-block-sm
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
