@@ -1,0 +1,163 @@
+
+
+@import 'https://fonts.googleapis.com/css?family=Cantarell|Titillium+Web:200';
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Cantarell', sans-serif;
+}
+
+.navbar-brand
+{
+    padding: 0px;
+}
+
+.navbar-brand>img
+{
+    height: 100%;
+    padding: 10px;
+    width: auto;
+}
+
+@media (max-width:479px)
+{
+    .btn-block-xs
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:991px)
+{
+    .text-center-sm
+    {
+        text-align: center;
+    }
+}
+
+.zoom-item
+{
+    max-width: 64px;
+    max-height: 64px;
+}
+
+#login-dp
+{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+
+#login-dp .help-block
+{
+    font-size: 12px;
+}
+
+#login-dp .bottom
+{
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .form-group
+{
+    margin-bottom: 10px;
+}
+
+@media (max-width:768px)
+{
+    #login-dp .bottom
+    {
+        border-top: 0 none;
+    }
+}
+
+@media (max-width: 479px)
+{
+    #login-dp
+    {
+        color: #FFF;
+    }
+}
+
+@media (max-width:767px)
+{
+    .btn-block-sm
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+#jumbotron
+{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+}
+
+#jumbotron video
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#jumbotron-body
+{
+    position: absolute;
+    top: 30vh;
+    width: 100%;
+    color: #EEE;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width:767px)
+{
+    #jumbotron-body
+    {
+        position: absolute;
+        top: 30vh;
+    }
+}
+
+#jumbotron-body h1
+{
+    font-weight: bold;
+}
+
+@media (min-width:992px)
+{
+    #jumbotron-body h1
+    {
+        font-size: 7em;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    #jumbotron-body h1
+    {
+        font-size: 6em;
+    }
+}
+
+@media (max-width:767px)
+{
+    #jumbotron-body h1
+    {
+        font-size: 3.5em;
+    }
+}
