@@ -1,11 +1,19 @@
 
 
+@import 'https://fonts.googleapis.com/css?family=Cantarell|Titillium+Web:200';
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 body
 {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Cantarell', sans-serif;
 }
 
 .navbar-brand
@@ -69,15 +77,17 @@ body
 
 @media (max-width:768px)
 {
-    #login-dp
-    {
-        background-color: inherit;
-        color: #fff;
-    }
     #login-dp .bottom
     {
-        background-color: inherit;
         border-top: 0 none;
+    }
+}
+
+@media (max-width: 479px)
+{
+    #login-dp
+    {
+        color: #FFF;
     }
 }
 
@@ -90,23 +100,56 @@ body
     }
 }
 
-#jumbotron {
-	width: 100%;
+#jumbotron
+{
+    width: 100%;
     height: 100vh;
     padding: 0;
     overflow: hidden;
 }
 
-#jumbotron video {
-      object-fit: cover;
-      width:100%;
-      height:100%;
+#jumbotron video
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
-#jumbotron-body {
+#jumbotron-body
+{
     position: absolute;
     top: 30%;
     width: 100%;
-    color: #DDD;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: #EEE;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
+
+#jumbotron-body h1
+{
+    font-weight: bold;
+}
+
+@media (min-width:992px)
+{
+    #jumbotron-body h1
+    {
+        font-size: 7em;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    #jumbotron-body h1
+    {
+        font-size: 6em;
+    }
+}
+
+@media (max-width:767px)
+{
+    #jumbotron-body h1
+    {
+        font-size: 3.5em;
+    }
+}
+
